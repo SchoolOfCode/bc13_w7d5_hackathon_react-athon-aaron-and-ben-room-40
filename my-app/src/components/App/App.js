@@ -20,8 +20,9 @@ function App() {
       completion: false,
       key: uuidv4()
     })
+    console.log(`todoState:`, todoState)
   }
-console.log(todoState)
+  
   function removeItemFromList(index) {
     todoState.splice(index, 1)
   }

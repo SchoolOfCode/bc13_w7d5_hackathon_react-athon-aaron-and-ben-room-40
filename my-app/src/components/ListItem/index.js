@@ -1,6 +1,6 @@
-function ListItem({todoState}) {
+function ListItem({todoText}) {
     return <li>
-        {todoState[0].todoText}
+        {todoText}
     </li>
 }
 

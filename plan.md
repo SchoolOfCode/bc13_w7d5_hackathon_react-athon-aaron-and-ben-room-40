@@ -10,17 +10,17 @@
       2. [x] remove item from list
       3. [x] render an Input and List
 7. [ ] Do the next component
-8. [ ] For Input component:
+8. [x] For Input component:
    1. [x] state: text
    2. [x] props: add function
-   3. [ ] behaviour
+   3. [x] behaviour
       1. [x] render an input field and a button
       2. [x] change of input text will update state of this component
-      3. [ ] button click will call the add function from props with value of input
+      3. [x] button click will call the add function from props with value of input
 9. [ ] For List component:
-   1.  [ ] props: 
-       1.  [ ] array of todos
-       2.  [ ] delete function
+   1.  [x] props: 
+       1.  [x] array of todos
+       2.  [x] delete function
    2.  [ ] behaviour
        1.  [ ] render an array of ListItems in a ul
 10. [ ] For List Item
@@ -28,7 +28,7 @@
         1.  [ ] Text
         2.  [ ] Delete function
     2.  [ ] Behaviour
-        1.  [ ] ender the text and a button
+        1.  [ ] render the text and a button
         2.  [ ] when the button is clicked call the delete function to delete item at this index
 11. [ ] Bonus
     1.  [ ] Remember we can use the uuid package from npm to create our unique id's when creating our lists [Link](https://www.npmjs.com/package/uuid)

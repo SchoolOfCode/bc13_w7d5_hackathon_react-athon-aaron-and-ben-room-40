@@ -3,7 +3,7 @@ import TextInput from '../TextInput/index'
 import AddToListButton from '../AddToListButton/index'
 
 function Input({addItemToList}){
-    const [inputState, setInputState] = useState("")
+    const [inputState, setInputState] = useState()
      
     return <div>
 

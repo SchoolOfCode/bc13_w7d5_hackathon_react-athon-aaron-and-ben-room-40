@@ -1,5 +1,5 @@
 function AddToListButton ({addItemToList, inputState}) {
-   return <button onClick={addItemToList(inputState)} >AddToListButton</button>
+   return <button onClick={()=>{addItemToList(inputState)}}>AddToListButton</button>
 
 }
 
