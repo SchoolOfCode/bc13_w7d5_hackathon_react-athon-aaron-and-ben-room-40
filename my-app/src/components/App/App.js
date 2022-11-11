@@ -6,11 +6,7 @@ import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid'
 
 function App() {
-  const [todoState, setTodoState] = useState([{ 
-    todoText: 'Wash dishes', 
-    completion: false, 
-    key: uuidv4() 
-  }]);
+  const [todoState, setTodoState] = useState([]);
 
   function addItemToList(newTodoText) {
     setTodoState([...todoState, {
@@ -20,14 +16,13 @@ function App() {
     }]);
     console.log(`todoState:`, todoState)
   }
-  
+
   function removeItemFromList(index) {
-    todoState.splice(index, 1)
+    setTodoState([...todoState.slice(0, index), ...todoState.slice(index+1)])
   }
 
   return (
     <div className="App">
-      <li>Test todo: {todoState[0].todoText}</li>
       <Input 
         addItemToList={addItemToList}
       /> 
