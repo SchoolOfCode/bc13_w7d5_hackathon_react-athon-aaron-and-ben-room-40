@@ -1,7 +1,7 @@
 1. [x] Draw a component tree diagram
-2. [ ] npx create-react-app etc
-3. [ ] Setup the folder structure
-4. [ ] Test the initial webpage works properly (npm start)
+2. [x] npx create-react-app etc
+3. [x] Setup the folder structure
+4. [x] Test the initial webpage works properly (npm start)
 5. [ ] remove the boilerplate code in main app.js and test it still works (blank page)
 6. [ ] Start with master component component first (App)
    1. [ ] state: list of to dos
