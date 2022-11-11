@@ -1,7 +1,24 @@
 .App {
 
 }
+.har{
+  height: 400px;
+  border-radius: 50%;
 
+  background-color: rgb(171, 19, 19);
+  margin: 10px;
+}
+.border{
+  padding: 5px;
+  border-radius: 50%;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(17,17,134,1) 42%, rgba(0,212,255,1) 100%);
+}
+
+.list{
+  background-color :bisque;
+  width:50%
+  
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
