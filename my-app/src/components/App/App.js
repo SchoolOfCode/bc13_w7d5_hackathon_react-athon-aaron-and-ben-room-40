@@ -13,13 +13,11 @@ function App() {
   }]);
 
   function addItemToList(newTodoText) {
-    // make it an immutable method?
-    // todoState - [...todoState, {}]; 
-    todoState.push({
+    setTodoState([...todoState, {
       todoText: newTodoText,
       completion: false,
       key: uuidv4()
-    })
+    }]);
     console.log(`todoState:`, todoState)
   }
   
@@ -40,11 +38,5 @@ function App() {
     </div>
   );
 }
-
-
-// todoState = [
-//   { todoText: 'Wash dishes', completion: false, key: 'uuid-number' },
-//   { todoText: 'Wash dishes', completion: false, key: 'uuid-number' },
-// ]
 
 export default App;

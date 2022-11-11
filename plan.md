@@ -21,8 +21,8 @@
    1.  [x] props: 
        1.  [x] array of todos
        2.  [x] delete function
-   2.  [ ] behaviour
-       1.  [ ] render an array of ListItems in a ul
+   2.  [x] behaviour
+       1.  [x] render an array of ListItems in a ul
 10. [ ] For List Item
     1.  [ ] Props
         1.  [ ] Text
