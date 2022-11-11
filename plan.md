@@ -3,12 +3,12 @@
 3. [x] Setup the folder structure
 4. [x] Test the initial webpage works properly (npm start)
 5. [x] remove the boilerplate code in main app.js and test it still works (blank page)
-6. [ ] Start with master component component first (App)
-   1. [ ] state: list of to dos
-   2. [ ] behaviour
-      1. [ ] add item to list
-      2. [ ] remove item from list
-      3. [ ] render an Input and List
+6. [x] Start with master component component first (App)
+   1. [x] state: list of to dos
+   2. [x] behaviour
+      1. [x] add item to list
+      2. [x] remove item from list
+      3. [x] render an Input and List
 7. [ ] Do the next component
 8. [ ] For Input component:
    1. [ ] state: text
