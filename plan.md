@@ -11,11 +11,11 @@
       3. [x] render an Input and List
 7. [ ] Do the next component
 8. [ ] For Input component:
-   1. [ ] state: text
-   2. [ ] props: add function
+   1. [x] state: text
+   2. [x] props: add function
    3. [ ] behaviour
-      1. [ ] render an input field and a button
-      2. [ ] change of input text will update state of this component
+      1. [x] render an input field and a button
+      2. [x] change of input text will update state of this component
       3. [ ] button click will call the add function from props with value of input
 9. [ ] For List component:
    1.  [ ] props: 

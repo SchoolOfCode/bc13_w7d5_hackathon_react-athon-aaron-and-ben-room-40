@@ -21,7 +21,7 @@ function App() {
       key: uuidv4()
     })
   }
-
+console.log(todoState)
   function removeItemFromList(index) {
     todoState.splice(index, 1)
   }
